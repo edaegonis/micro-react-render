@@ -1,0 +1,32 @@
+{
+  "name": "micro-react-render",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.tsx"
+  },
+  "author": "Eduardo C. de Souza",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.4.4",
+    "@types/react": "^16.8.22",
+    "@types/react-dom": "^16.8.4",
+    "@types/react-router-dom": "^4.3.4",
+    "apollo-cache-inmemory": "^1.6.2",
+    "apollo-client": "^2.6.3",
+    "apollo-link-http": "^1.5.15",
+    "babel-loader": "^8.0.6",
+    "express": "^4.17.1",
+    "graphql": "^14.4.1",
+    "graphql-tag": "^2.10.1",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^1.19.1",
+    "react": "^16.8.6",
+    "react-apollo": "^2.5.8",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.1"
+  }
+}
